@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 class Topic
-  USER_CHANGED = "user_changed"
-  USER_CREATED = "user_created"
+  USER_CHANGED = "user.changed"
+  USER_CREATED = "user.created"
 end
