@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
+require "active_model"
 require "message/contracts"
+require "message/contracts/user_message"
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
