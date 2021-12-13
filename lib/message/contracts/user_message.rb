@@ -2,6 +2,7 @@
 
 require "message/contracts/base_message"
 
+# top level documentation
 class UserMessage
   include ActiveModel::Model
   include BaseMessage
