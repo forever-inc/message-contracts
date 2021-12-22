@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require "active_model"
 require "message/contracts"
 require "message/contracts/user_message"
 
