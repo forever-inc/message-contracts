@@ -1,8 +1,13 @@
 # frozen_string_literal: true
 
 # top level documentation
-module BaseMessage
-  def to_s
-    inspect
+class BaseMessage < OpenStruct
+
+  def initialize(attributes)
+    super(attributes.slice(*keys))
+  end
+
+  def as_json(options = nil)
+    super(options)['table']
   end
 end
