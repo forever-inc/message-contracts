@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in message-contracts.gemspec
+# Specify your gem's dependencies in message-contracts-contracts.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
