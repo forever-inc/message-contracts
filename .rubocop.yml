@@ -16,4 +16,4 @@ Metrics/BlockLength:
   Exclude:
     - 'Rakefile'
     - '**/*.rake'
-    - '*_spec.rb'
+    - '**/*_spec.rb'
