@@ -9,3 +9,4 @@
 *.iml
 # rspec failure tracking
 .rspec_status
+/.idea/inspectionProfiles/Project_Default.xml

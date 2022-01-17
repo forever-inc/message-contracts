@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
 require "ostruct"
-require "message-contracts/base_message"
-require "message-contracts/user_message"
-require "message-contracts/user_sync_message"
+require "active_support/all"
+require "message_contracts"
+require "rspec"
+require "json"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
