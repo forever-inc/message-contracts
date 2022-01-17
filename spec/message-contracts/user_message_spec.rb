@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 RSpec.describe UserMessage do
-  let(:user_json_data) { File.read("spec/fixtures/message-contracts/user_message.json") }
+  let(:user_json_data) { File.read("spec/fixtures/user_message.json") }
   context "when user data is in json" do
     let(:user_message_field_count) { UserMessage.new({}).keys.count }
 

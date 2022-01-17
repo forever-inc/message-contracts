@@ -2,7 +2,7 @@
 
 RSpec.describe UserSyncMessage do
   context "when user sync data is in json" do
-    let(:single_user_json) { File.read("spec/message-contracts/user_message.json") }
+    let(:single_user_json) { File.read("spec/fixtures/user_message.json") }
     let(:multiple_user_array) do
       (1..5).map do
         UserMessage.new ActiveSupport::HashWithIndifferentAccess.new(JSON.parse(single_user_json))
