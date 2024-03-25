@@ -27,5 +27,6 @@
   "source": "Store-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36",
   "metadata": "null",
   "reset_password_token": "reset_password_token value",
+  "storage_audit_id": "5509a86f-4d6e-40f0-918a-9f5c2cd266f2",
   "extra_key": "extra_value"
 }
