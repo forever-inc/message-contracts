@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    message-contracts (0.9.0)
+    message-contracts (0.10.0)
 
 GEM
   remote: https://rubygems.org/
@@ -56,6 +56,7 @@ GEM
     zeitwerk (2.5.1)
 
 PLATFORMS
+  x86_64-darwin-19
   x86_64-darwin-20
   x86_64-linux
 
