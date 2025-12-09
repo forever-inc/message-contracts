@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "message contracts gem"
   spec.description   = "message contracts gem for sharing messages between services"
   spec.homepage      = "https://github.com/forever-inc/message-contracts"
-  spec.required_ruby_version = ">= 2.7.2"
+  spec.required_ruby_version = ">= 3.3.10"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
