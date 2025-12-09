@@ -1,0 +1,37 @@
+name: Rails CI
+
+on:
+  push:
+    branches:
+      - master
+      - dev
+  pull_request:
+    branches:
+      - master
+      - dev
+      - epic/**
+env:
+  RAILS_ENV: test
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.10
+          bundler-cache: true
+
+      - name: Install Dependencies
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Rubocop
+        run: bundle exec rubocop
+
+      - name: Run RSpec Tests
+        run: bundle exec rspec
