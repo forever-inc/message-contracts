@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    message-contracts (0.10.0)
+    message-contracts (2.0.0)
 
 GEM
   remote: https://rubygems.org/
