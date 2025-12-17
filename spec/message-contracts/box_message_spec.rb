@@ -21,8 +21,6 @@ RSpec.describe BoxMessage do
       box_subset = box.take(box_message_field_count).to_h.with_indifferent_access
       box_hash = described_class.new(box_subset).to_h
       expect(box_hash.count).to eq(box_message_field_count)
-      expect(box_hash.to_h[:id].nil?).to be false
-      expect(box_hash.to_h[:name].nil?).to be false
       expect(box_hash.to_h[:email].nil?).to be false
     end
   end

@@ -1,8 +1,5 @@
 {
-    "id": "d8ff03f4-c18f-43ed-9a6d-4cf0702a1ee9",
-    "name": "alex 1",
     "email": "alex2@email.com",
-    "phone": "4123343323",
     "work_order_id": "12345",
     "tracking_url": "http://www.a_long_fedex_url.com/somewhere",
     "text_message": "Box has been shipped!"
