@@ -2,6 +2,6 @@
 
 RSpec.describe Message::Contracts do
   it "has a version number" do
-    expect(Message::Contracts::VERSION).not_to be nil
+    expect(Message::Contracts::VERSION).not_to be_nil
   end
 end
